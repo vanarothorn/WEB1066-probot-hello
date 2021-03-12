@@ -24,5 +24,5 @@ after_success:
     else
     echo "skipping docker tag";
     fi;
-    docke imagess;
+    docker imagess;
     set +x +v;
